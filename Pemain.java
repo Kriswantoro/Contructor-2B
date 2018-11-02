@@ -2,13 +2,13 @@ public class Pemain extends Sepakbola{
 	
 	public int noPung;
 
-	public Pemain(String nama, int noPung){
-		super(nama);		
+	public Pemain(String nama, String club, int noPung){
+		super(nama,club);		
 		this.noPung = noPung;
 	}
 
-	public Pemain(String nama){
-		super(nama);
+	public Pemain(String nama, String club){
+		super(nama,club);
 	}
 
 	public void showNopung(){
